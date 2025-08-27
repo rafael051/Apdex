@@ -17,9 +17,9 @@ public class ApdexTest {
 
     @Test
     public void ValidationApdexExcelente() {
-        //act  (~0.95 com TOTAL = 557837)
+
         float result = apdex.calc(529945, 0, 557837);
-        //assert
+
         assertEquals(0.95, result, 0.01);
     }
 
